@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio En Construcción</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .icon {
+            font-size: 5rem;
+            margin: 2rem 0;
+            color: #e74c3c;
+        }
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .progress-container {
+            width: 100%;
+            max-width: 500px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            margin: 2rem 0;
+            overflow: hidden;
+        }
+        .progress-bar {
+            height: 20px;
+            width: 75%;
+            background: linear-gradient(to right, #3498db, #2980b9);
+            border-radius: 10px;
+            animation: progress 2s ease-in-out infinite alternate;
+        }
+        @keyframes progress {
+            0% { width: 65%; }
+            100% { width: 85%; }
+        }
+        .contact {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .contact p {
+            margin-bottom: 1rem;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 3rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sitio Web En Construcción</h1>
+        </header>
+        
+        <div class="icon">🚧</div>
+        
+        <div class="message">
+            <p>Estamos trabajando para ofrecerte una experiencia increíble muy pronto.</p>
+            <p>Nuestro equipo está construyendo algo asombroso y nos encantaría que regreses para verlo.</p>
+        </div>
+        
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        
+        <p>¡Gracias por tu paciencia!</p>
+        
+        <div class="contact">
+            <p>¿Tienes alguna pregunta?</p>
+            <p>Contacta con nosotros en: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a></p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
